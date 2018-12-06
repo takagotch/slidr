@@ -3,7 +3,7 @@
 https://github.com/bchanx/slidr
 
 ```js
-slidr.create().start();
+slidr.create('slidr-id').start();
 slidr.create('slidr-id', {
   after: function(e){ console.log('in: ' + e.in.slidr); },
   before: function(e){ console.log{ console.log('out: ' + e.out.slidr); }; },
