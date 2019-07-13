@@ -46,11 +46,9 @@ function stop(){};
 function timing(transition, opt_timing){};
 function breadcrumbs(){};
 function controls(opt_scheme){};
-
-
 ```
 
-```
+```css
 {
   id: "slidr-id",
   in: {
